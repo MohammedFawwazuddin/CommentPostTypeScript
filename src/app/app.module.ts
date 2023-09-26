@@ -7,11 +7,11 @@ import { HttpClientModule } from '@angular/common/http';
 import { GetpostsComponent } from './postDetail/postDetail.component';
 import { FormsModule } from '@angular/forms';
 
-
 @NgModule({
   declarations: [
     AppComponent,
-    GetpostsComponent
+    GetpostsComponent,
+    
   ],
   imports: [
     BrowserModule,
